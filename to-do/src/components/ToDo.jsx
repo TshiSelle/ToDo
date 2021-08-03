@@ -3,12 +3,10 @@ import './ToDo.css';
 
 function ToDo() {
   return (
-    <div className='sidebar'>
-      <div className='sidebar_header'>
-        <div className='sidebar_headerRight'></div>
-      </div>
-      <div className='sidebar-search'>
-        <div className='sidebar_searchContainer'></div>
+    <div className='todo'>
+      <div className='todo_header'>
+        <h1>To Do</h1>
+        <div className='todo_headerRight'></div>
       </div>
     </div>
   );
