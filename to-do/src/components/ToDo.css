@@ -1,25 +1,13 @@
 .todo {
-  display: flex;
+  display: grid;
   flex-direction: column;
   flex: 0.5;
 }
 
 .todo_header {
-  display: flex;
+  display: grid;
   justify-content: center;
 
   border-radius: 5px;
   border: 3px solid black;
-}
-
-.todo_headerRight {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  min-width: 10vw;
-}
-
-.sidebar_headerRight > .MuiSvgIcon-root {
-  margin-right: 2vw;
-  font-size: 24px !important;
 }

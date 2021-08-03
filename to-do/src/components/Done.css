@@ -1,11 +1,11 @@
 .done {
-  display: flex;
+  display: grid;
   flex-direction: column;
   flex: 0.5;
 }
 
 .done_header {
-  display: flex;
+  display: grid;
   justify-content: center;
 
   border-radius: 5px;
