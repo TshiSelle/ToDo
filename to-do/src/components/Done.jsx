@@ -1,9 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
+
+import './Done.css';
 
 function Done() {
   return (
     <div className='done'>
-      <h1> Done</h1>
+      <div className='done_header'>
+        <h1> Done</h1>
+      </div>
     </div>
   );
 }
