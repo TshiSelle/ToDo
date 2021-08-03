@@ -3,14 +3,13 @@
   place-items: center;
   height: 100vh;
   background-color: #af8c9d;
-  background-image: linear-gradient(315deg, #af8c9d 0%, #8cacac 74%);
+  background-image: linear-gradient(-120deg, #99aab5, #2c2f33, #23272a);
 }
 
 .app_body {
   display: flex;
 
-  height: 90vh;
-  width: 90vw;
+  height: 100vh;
+  width: 98vw;
   /*box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.75);*/
-  border-radius: 10px;
 }
